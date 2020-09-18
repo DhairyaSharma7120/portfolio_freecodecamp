@@ -4,7 +4,7 @@ nav{
   width: 100vw;
 background-color: #a40606;
 background-image: linear-gradient(to right, #00b09b 0%, #96c93d 74%);
-z-index: 1;
+z-index: 2;
 
 
   display: grid;
@@ -71,13 +71,14 @@ box-shadow: 5px 7px 4px #888888;
   transition: 3s;
 }
 .contact{
-  width: 100vw;
-  height: 100vh;
+
+ 
   margin-top: 20px; 
   display: grid;
   place-content:center;
 background-color: #89d4cf;
 background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
+
 
 }
 .contact-form{
@@ -87,8 +88,8 @@ background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
 }
 form{
 
-  height: 80vh;
-  width: 70vw;
+  
+
  background-color: #89d4cf;
 background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
   opacity: 1;
@@ -103,13 +104,14 @@ background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
 }
 
 .textarea{
-  padding: 100px;
+  padding: 50px;
 }
 
 footer{
   width: 100vw;
   height: 400px;
   background-color: #565656;
+  z-index: 1;
 }
 .copyright{
   text-align:center;
@@ -125,13 +127,16 @@ footer{
   .foo{
     font-size: 15px;
   }
- .project-header{
-  margin-top: -70px;
+ .contact-form{
+  padding: 0px;
+  width: auto;
  }
- #projects{
-  height: 170vh;
+ .project-content{
+  width: auto;
  }
- form{
-  width: 80vw;
- }
+}
+@media (max-height: 700px){
+  .textarea{
+    padding: 20px;
+  }
 }
