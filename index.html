@@ -4,6 +4,7 @@
 	<title>portfolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="./portfolio.css">
 </head>
 <body>
@@ -11,7 +12,7 @@
 		<ul>
 			<li class="f3 helvetica grow"><a class="nav-link pl2 black link" href="#welcome-section">ABOUT</a></li>
 			<li class="f3 helvetica grow"><a class="nav-link pl2 black link" href="#projects">WORK</a></li>
-			<li class="f3 helvetica grow"><a class="nav-link pl2 black link" href="#">CONTACT</a></li>
+			<li class="f3 helvetica grow"><a class="nav-link pl2 black link" href="#contact">CONTACT</a></li>
 		</ul>
 	</nav>
 
@@ -32,7 +33,7 @@
 		</div>
 	</section>
 	<section id="projects">
-		<h1 class="center code mt6">PROJECTS</h1>
+		<h1 class="center project-header code mt6">PROJECTS</h1>
 		<div class="project-content">
 		<div class="project-tile grow grid">
 			<h2 class="center code">A Tribute Page</h2>
@@ -55,10 +56,10 @@
 			<a class="center white grow f3 b i link helvetica" href="https://codepen.io/dhairyasharma7120/full/BaKOXrW">Visit Site</a>
 		</div>
 	</section>
-	<section class="contact">
+	<section id="contact" class="contact">
 		<div class="center"><h1 class="code b white center">REVIEW/SUGGESTION FORM</h1></div>
 		<div class="contact-form">
-			<form class="grid" method="post">
+			<form class="grid" action="#" method="post">
 				<div class="form-content"><label class="white code f3">NAME</label><input type="name" name=""></div>
 				<div class="form-content"><label class="white code f3">Email</label><input type="email" name=""></div>
 				<div class="form-content"><label class="white code f3">REVIEWS/SUGGESTIONS</label><textarea class="textarea" name="review"></textarea> </div>
@@ -68,7 +69,21 @@
 			</form>
 		</div>
 	</section>
+	<footer class="grid">
+	<p class="white center foo code">This is my portfolio website for freecodecamp certification</p>
+	<div class="center">
+		<a id="profile-link" class="code no-underline near-white bg-animate bg-near-black hover-bg-gray inline-flex items-center ma2 tc br2 pa2" href="https://github.com/DhairyaSharma7120" title="GitHub" >
+    <svg class="dib h2 w2" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.083-.202-.358-1.015.077-2.117 0 0 .672-.215 2.2.82.638-.178 1.323-.266 2.003-.27.68.004 1.364.092 2.003.27 1.527-1.035 2.198-.82 2.198-.82.437 1.102.163 1.915.08 2.117.513.56.823 1.274.823 2.147 0 3.073-1.87 3.75-3.653 3.947.287.246.543.735.543 1.48 0 1.07-.01 1.933-.01 2.195 0 .215.144.463.55.385C13.71 14.53 16 11.534 16 8c0-4.418-3.582-8-8-8"/></svg>
+    <span class="f6 ml3 pr2">GitHub</span>
+  </a>
 
+  <a class="no-underline near-white code bg-animate bg-near-black hover-bg-gray inline-flex items-center ma2 tc br2 pa2" href="https://www.freecodecamp.org/dhairyasharma7120" title="CodePen">
+    <svg class="dib h2 w1" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><i class="fa fa-free-code-camp"></i></svg>
+    <span class="f6 ml3 pr2">freecodecamp</span>
+  </a>
+	</div>
+		<section class="center copyright"><p class="f4 white code center">@dhairyasharma7120</p></section>
+	</footer>
 	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
