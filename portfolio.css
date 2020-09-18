@@ -1,0 +1,55 @@
+nav{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+background-color: #a40606;
+background-image: linear-gradient(to right, #00b09b 0%, #96c93d 74%);
+z-index: 1;
+
+
+  display: grid;
+  justify-items: center; 
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+  padding: 10px;
+  letter-spacing: 2px;
+}
+#welcome-section{
+  width: 100vw;
+  margin-top:-100px;
+  height: 130vh;
+  display: grid;
+  place-content:center;
+background-color: #abe9cd;
+background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+transform: skewY(-8deg);
+}
+.welcome-section-content{
+  transform: skewY(8deg);
+}
+#projects{
+  width: 100vw;
+  display: grid;
+  place-content:center;
+
+background-color: white;
+}
+.project-content{
+  justify-self:center;
+  border: 1px solid red;
+  width: 70vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 25px;
+}
+.project-tile{
+  border: 2px solid red;
+}
+.center{
+  justify-self:center; 
+}
