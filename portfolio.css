@@ -38,6 +38,10 @@ transform: skewY(-8deg);
 
 background-color: white;
 }
+.grid{
+  display: grid;
+  place-content:center;
+}
 .project-content{
   justify-self:center;
   border: 1px solid red;
